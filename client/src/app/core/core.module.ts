@@ -9,6 +9,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { SectionHeaderComponent } from './section-header/section-header.component';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -18,6 +19,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
     CommonModule,
     RouterModule,
     BreadcrumbModule,
+    SharedModule,
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right',
       preventDuplicates: true
